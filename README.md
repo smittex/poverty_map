@@ -1,29 +1,44 @@
-# Foundation Compass Template
+# [Foundation](http://foundation.zurb.com)
 
-The easiest way to get started with Foundation + Compass.
+[![Build Status](https://travis-ci.org/zurb/foundation.svg)](https://travis-ci.org/zurb/foundation)
 
-## Requirements
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+Foundation is the most advanced responsive front-end framework in the world. You can quickly prototype and build sites or apps that work on any kind of device with Foundation, which includes layout constructs (like a fully responsive grid), elements and best practices.
+
+To get started, check out <http://foundation.zurb.com/docs>
+
 
 ## Quickstart
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
-  
-Then when you're working on your project, just run the following command:
+To get going with Foundation you can:
 
-```bash
-compass watch
+  * [Download the latest release](http://foundation.zurb.com/cdn/releases/foundation-latest.zip)
+  * [Install with Bower](http://bower.io): `bower install zurb/bower-foundation`
+
+## Documentation
+
+Foundation uses [Assemble.io](http://assemble.io) and [Grunt](http://gruntjs.com/) to generate its [documentation pages](http://foundation.zurb.com/docs). Documentation can also be run from your local computer:
+
+### View documentation locally
+
+You'll want to clone the Foundation repo first and install all the dependencies. You can do this using the following commands:
+
+```
+git clone git@github.com:zurb/foundation.git
+cd foundation
+npm install -g grunt-cli bower
+npm install
+bower install
 ```
 
-## Upgrading
+Then just run `grunt build` and the documentation will be compiled:
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
-
-```bash
-bower update
 ```
+foundation/
+├── dist/
+│   └── ...
+├────── docs/
+│       └── ...
+```
+
+Copyright (c) 2014 ZURB, inc.
