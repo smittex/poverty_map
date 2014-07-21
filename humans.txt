@@ -1,8 +1,8 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com  */
+/* poverty_map was made by Bryan Smith */
+/* sdg.io  */
 /* humanstxt.org */
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
-  Software: Sublime, Git, Sass
+  Software: IntelliJ IDEA, Git, Sass
